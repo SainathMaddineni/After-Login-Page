@@ -4,10 +4,12 @@ import {AddIcon } from "@chakra-ui/icons"
 
 function LoginIntegration() {
     return ( 
-        <Box bg="#c2c1be">
+        <Box bg="#c4d7f5">
         <Box marginLeft="40%" width="350px">
             <br />
-        <FormControl>
+            <br />
+            <br />
+        <FormControl height="80vh">
             <FormLabel><strong>Quote Of The Project :</strong></FormLabel>
             <Select placeholder="Select" borderColor="black" >
                 <option>Web</option>
@@ -25,11 +27,11 @@ function LoginIntegration() {
             <FormLabel><strong>Vender Ship :</strong> </FormLabel>
                     <FormLabel border="1.5px solid black" borderRadius="10px" width="350px">
                     <label for="file"> 
-                    <AddIcon color="white" border="1px solid white" borderRadius="80%" padding="5px" 
-                    backgroundColor="green" boxSize="40px" cursor="pointer" />Choose a File... 
+                    <AddIcon color="white" border="1px solid white" borderRadius="70%" padding="8px" 
+                    backgroundColor="red" boxSize="40px" cursor="pointer" /> Choose a File... 
                     <Input  hidden type="file" id="file"/> </label>
                     </FormLabel><br />
-                    <Button colorScheme="teal" variant="solid">Submit</Button>
+                    <Button colorScheme="blue" variant="solid">Submit</Button>
         </FormControl>
         <br />
         </Box>

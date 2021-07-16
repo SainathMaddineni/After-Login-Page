@@ -15,14 +15,14 @@ function Navbar(){
             
                 <ChakraProvider theme={theme}>
                     <Box 
-                     backgroundColor="#75685f"
+                     backgroundColor="#bababa"
                      padding= "18px"
                      display="flex"
                      justifyContent="space-between"
                      paddingRight="50px"
                      fontSize="32px"
                      fontWeight="bold"
-                     color="yellow"
+                     color="teal"
                     >
                         <h1>Slope Rate Techno Private Limited</h1>
                         
